@@ -22,6 +22,7 @@ require 'octokit/client/gitignore'
 require 'octokit/client/hooks'
 require 'octokit/client/issues'
 require 'octokit/client/labels'
+require 'octokit/client/languages'
 require 'octokit/client/legacy_search'
 require 'octokit/client/meta'
 require 'octokit/client/markdown'
@@ -66,6 +67,7 @@ module Octokit
     include Octokit::Client::Hooks
     include Octokit::Client::Issues
     include Octokit::Client::Labels
+    include Octokit::Client::Languages
     include Octokit::Client::LegacySearch
     include Octokit::Client::Meta
     include Octokit::Client::Markdown
